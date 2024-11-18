@@ -33,10 +33,10 @@ cout<<"to remove: ";
 cin >> number;
 if(number > 0 && number <= tasks.size()){
 tasks.erase(tasks.begin() + number - 1);
-cout<<"removed: "endl;
+cout<<"removed: "<<endl;
 }
 else{
-cout<<"invalid:;
+cout<<"invalid";
 }
 break;
 
